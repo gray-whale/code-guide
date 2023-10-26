@@ -1,0 +1,15 @@
+{
+  "name": "mfapp-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs --port 9999",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "deploy": "bash deploy.sh"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.20"
+  }
+}
