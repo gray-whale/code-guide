@@ -59,7 +59,11 @@ export default {
                         {
                             text: "概述",
                             link: "/guide/index",
-                        }
+                        },
+                        {
+                            text: "命名规范",
+                            link: "/guide/naming-rules",
+                        },
                     ],
                 },
                 {

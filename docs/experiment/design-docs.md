@@ -133,7 +133,7 @@
 
 
 ### 1.2 案例
-![](/experiment/18.png)
+![](/experiment/18.jpg)
 
 要点：
 
