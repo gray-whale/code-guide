@@ -64,6 +64,30 @@ export default {
                             text: "命名规范",
                             link: "/guide/naming-rules",
                         },
+                        {
+                            text: "HTML规范",
+                            link: "/guide/commit",
+                        },
+                        {
+                            text: "CSS规范",
+                            link: "/guide/css",
+                        },
+                        {
+                            text: "LESS规范",
+                            link: "/guide/less",
+                        },
+                        {
+                            text: "JavaScript规范",
+                            link: "/guide/javascript",
+                        },
+                        {
+                            text: "Vue项目规范",
+                            link: "/guide/vue",
+                        },
+                        {
+                            text: "提交规范",
+                            link: "/guide/commit",
+                        },
                     ],
                 },
                 {
