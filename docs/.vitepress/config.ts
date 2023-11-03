@@ -2,9 +2,13 @@ export default {
     title: '前端开发指南',
     description: '前端开发指南',
     base: '/code-guide/',
-    // head: [
-    //     ['link', { rel: 'icon', href: '/mfapp/favicon.ico' }]
-    // ],
+    head: [
+       // ['link', { rel: 'icon', href: '/mfapp/favicon.ico' }]
+       [
+        'script',
+        { charset: 'utf-8',async:'', src: 'https://readmore.openwrite.cn/js/readmore.js' }
+    ],
+    ],
     markdown: {
         lineNumbers: true, //显示代码行数
     },

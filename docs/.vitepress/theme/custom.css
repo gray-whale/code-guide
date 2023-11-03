@@ -1,7 +1,9 @@
 :root {
-    --vp-c-brand: #17e157;
-    --vp-c-brand-light: #41f179;
-    --vp-c-brand-lighter: #65ff9d;
-    --vp-c-brand-dark: #00f140;
-    --vp-c-brand-darker: #00c724;
+    --vp-c-brand-3: #65ff9d;
+    --vp-c-brand-2: #41f179;
+    --vp-c-brand-1: #17e157;
+}
+
+#btw-modal img {
+    display: inline-block;
 }
