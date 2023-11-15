@@ -3,11 +3,15 @@ export default {
     description: '前端开发指南',
     base: '/code-guide/',
     head: [
-       // ['link', { rel: 'icon', href: '/mfapp/favicon.ico' }]
-       [
-        'script',
-        { charset: 'utf-8',async:'', src: 'https://readmore.openwrite.cn/js/readmore.js' }
-    ],
+        // ['link', { rel: 'icon', href: '/mfapp/favicon.ico' }]
+        [
+            'script',
+            { charset: 'utf-8', async: '', src: 'https://readmore.openwrite.cn/js/readmore.js' }
+        ],
+        [
+            'script',
+            { charset: 'utf-8', async: '', src: '//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js' }
+        ],
     ],
     markdown: {
         lineNumbers: true, //显示代码行数
@@ -39,18 +43,18 @@ export default {
         // logo: "/logo.png",
         nav: [
             {
-                text: "标准规范", 
+                text: "标准规范",
                 link: '/guide/index'
             },
             {
-                text: "最佳实践", 
+                text: "最佳实践",
                 link: '/experiment/component'
             }
         ],
         outlineTitle: '在本页面',
         lastUpdatedText: '最近更新时间',
         footer: {
-            message: 'Released under the MIT License.',
+            message: '<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次，本站总访客数<span id="busuanzi_value_site_uv"></span>人次</span><br/>Released under the MIT License.',
             copyright: 'Copyright © 2022-present codeteenager'
         },
         smoothScroll: true,
@@ -59,6 +63,7 @@ export default {
             "/guide/": [
                 {
                     text: "开发规范",
+                    collapsed: false,
                     items: [
                         {
                             text: "概述",
@@ -95,7 +100,38 @@ export default {
                     ],
                 },
                 {
+                    text: "工作流规范",
+                    collapsed: false,
+                    items: [
+                        {
+                            text: "版本规范",
+                            link: "/guide/git-version",
+                        },
+                        {
+                            text: "Git分支模型",
+                            link: "/guide/git-branch",
+                        },
+                        {
+                            text: "提交信息规范",
+                            link: "/guide/git-changelog",
+                        },
+                        {
+                            text: "Bug处理规则",
+                            link: "/guide/git-bug",
+                        },
+                        {
+                            text: "如何处理定制化需求",
+                            link: "/guide/git-custom",
+                        }
+                    ],
+                },
+                {
+                    text: "Restful接口规范",
+                    link: "/guide/restful",
+                },
+                {
                     text: "绩效标准",
+                    collapsed: false,
                     items: [
                         {
                             text: "概述",
