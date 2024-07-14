@@ -29,7 +29,7 @@ export default {
               id: 'page-container',
               blogId: '32228-1698943811239-404',
               name: '前端研学营',
-              qrcode: 'https://codeteenager.github.io/FE/weixin.jpeg',
+              qrcode: 'https://codeteenager.github.io/FE/weixin.jpg',
               keyword: '前端研学营',
             });
           }, 1000);
