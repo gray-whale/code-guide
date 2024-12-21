@@ -75,7 +75,7 @@ export default {
                         },
                         {
                             text: "HTML规范",
-                            link: "/guide/commit",
+                            link: "/guide/html",
                         },
                         {
                             text: "CSS规范",
